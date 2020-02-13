@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(243, 241, 110);
+}
+.wrapper{
+  max-width: 1024px;
+  min-width: 680px;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0 0 30px lightgrey;
+}
+
+header{
+  text-align: center;
+  font-size: 25px;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  
+}
+
+h1{
+  color: black;
+}
+
+h2{
+  font-size: 25px;
+  color: rgb(124, 115, 115);
+}
+
+section{
+  border-bottom: 1px solid grey;
+}
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.contacts img{
+  border-radius: 70%;
+
+}
